@@ -36,6 +36,8 @@ Built an **end-to-end perception → communication → fusion → risk → braki
 - **Evaluation:** per-cycle JSON/CSV telemetry, controlled scenario comparisons, and focused CPU-only regression tests.
 - **Scope:** kinematic simulated braking; no claim of real-vehicle collision-avoidance validation.
 
+[![Perceptinet core Python checks](https://github.com/vinceyuchen/Perceptinet/actions/workflows/core-checks.yml/badge.svg?branch=main)](https://github.com/vinceyuchen/Perceptinet/actions/workflows/core-checks.yml)
+
 **[Watch both demos](https://github.com/vinceyuchen/Perceptinet#demo-showcase)** · **[Architecture & trade-offs](https://github.com/vinceyuchen/Perceptinet/blob/main/docs/ENGINEERING_NOTES.md)** · **[Code & tests](https://github.com/vinceyuchen/Perceptinet)**
 
 ### 02 / [Behind the Shelter Doors](https://github.com/vinceyuchen/animal-shelter-dv2)
