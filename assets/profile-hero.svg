@@ -1,54 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Vince — Software engineering and intelligent systems</title>
-  <desc id="desc">A minimal dark navy banner with modern typography and an abstract perception radar motif.</desc>
-  <defs>
-    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#080F1D"/>
-      <stop offset="0.65" stop-color="#101D30"/>
-      <stop offset="1" stop-color="#0A1527"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" x2="1">
-      <stop offset="0" stop-color="#55E1CB"/>
-      <stop offset="1" stop-color="#5C9EFA"/>
-    </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#236A77" stop-opacity="0.31"/>
-      <stop offset="1" stop-color="#236A77" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#A7C4DD" stroke-opacity=".065" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect width="1200" height="320" rx="18" fill="url(#background)"/>
-  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
-  <circle cx="995" cy="160" r="230" fill="url(#glow)"/>
-  <path d="M64 54h62" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
-  <text x="64" y="94" fill="#7BD9D0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="3" font-weight="700">VINCE / ENGINEERING</text>
-  <text x="64" y="168" fill="#F4F8FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="55" font-weight="750">Build what matters.</text>
-  <text x="66" y="207" fill="#A8BED1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21">Intelligent systems. Reliable software. Clear design.</text>
-  <rect x="64" y="247" width="385" height="36" rx="18" fill="#1D3146" fill-opacity=".82" stroke="#668DA6" stroke-opacity=".27"/>
-  <text x="84" y="270" fill="#BEEBEB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" letter-spacing=".6">PERCEPTION</text>
-  <circle cx="202" cy="266" r="2.5" fill="#7094AB"/>
-  <text x="220" y="270" fill="#BEEBEB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" letter-spacing=".6">SYSTEMS</text>
-  <circle cx="316" cy="266" r="2.5" fill="#7094AB"/>
-  <text x="334" y="270" fill="#BEEBEB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" letter-spacing=".6">DATA</text>
-  <g fill="none" stroke="#52B9C1">
-    <circle cx="1002" cy="161" r="116" stroke-opacity=".27" stroke-dasharray="4 9"/>
-    <circle cx="1002" cy="161" r="90" stroke-opacity=".25"/>
-    <circle cx="1002" cy="161" r="59" stroke-opacity=".40"/>
-    <circle cx="1002" cy="161" r="29" stroke-opacity=".58"/>
-    <path d="M1002 45V277M886 161h232" stroke-opacity=".23"/>
-    <path d="M1002 161L1077 101" stroke="#76E6D9" stroke-width="2.4" stroke-opacity=".88"/>
-    <path d="M1002 73A88 88 0 0 1 1090 161" stroke="#79DCCA" stroke-width="3" stroke-linecap="round"/>
-  </g>
-  <circle cx="1002" cy="161" r="8" fill="#69DFC8"/>
-  <circle cx="1077" cy="101" r="7" fill="#71B9F6"/>
-  <circle cx="930" cy="194" r="5" fill="#71B9F6"/>
-  <circle cx="1032" cy="237" r="4.5" fill="#71DCCF"/>
-  <g fill="#A7C8D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="2">
-    <text x="834" y="75">OBSERVE</text>
-    <text x="1091" y="93">REASON</text>
-    <text x="1091" y="261">RESPOND</text>
-  </g>
-  <path d="M827 83L920 111M1077 100L1090 98M1043 236l38 12" stroke="#6D9BB4" stroke-opacity=".55" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="274" viewBox="0 0 1200 274" role="img" aria-labelledby="title desc">
+<title id="title">Vince — Software Engineering Portfolio</title>
+<desc id="desc">Minimal dark editorial banner with typography and a single understated accent line.</desc>
+<rect width="1200" height="274" rx="13" fill="#10161E"/>
+<path d="M68 49H118" stroke="#83B8C4" stroke-width="3" stroke-linecap="round"/>
+<text x="68" y="80" fill="#A7BCC8" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" letter-spacing="2.1">SOFTWARE ENGINEERING / APPLIED AI</text>
+<text x="64" y="166" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="76" letter-spacing="-3.2">VINCE</text>
+<text x="68" y="210" fill="#B8C4CF" font-family="Arial, Helvetica, sans-serif" font-size="23">Building reliable systems, from simulations to interfaces.</text>
+<line x1="68" x2="1132" y1="240" y2="240" stroke="#34404D" stroke-width="1"/>
+<text x="1132" y="79" text-anchor="end" fill="#8194A4" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="1.6">ENGINEERING PORTFOLIO</text>
 </svg>
