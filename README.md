@@ -1,102 +1,84 @@
 <div align="center">
+  <a href="https://github.com/vinceyuchen">
+    <img src="assets/profile-hero.svg" width="100%" alt="Vince — Build what matters. Intelligent systems, reliable software, clear design." />
+  </a>
 
-<a href="https://github.com/vinceyuchen">
-  <img src="./assets/profile-hero.svg" alt="Vince — Build what matters. Intelligent systems, reliable software, clear design." width="100%" />
-</a>
+  <p><strong>Software Engineering · Applied AI · Autonomous Systems</strong></p>
+  <p>I build end-to-end systems, from computer vision pipelines to interactive software.</p>
 
-<br />
-
-**Software Engineering** &nbsp;·&nbsp; **Intelligent Systems** &nbsp;·&nbsp; **Data Visualization**
-
-<a href="#selected-work">Selected work</a> &nbsp;·&nbsp;
-<a href="https://github.com/vinceyuchen/Perceptinet#demo-showcase">CARLA demos</a> &nbsp;·&nbsp;
-<a href="https://vinceyuchen.github.io/animal-shelter-dv2/">Live data experience</a> &nbsp;·&nbsp;
-<a href="https://github.com/vinceyuchen?tab=repositories">All repositories</a>
-
+  <p>
+    <a href="#featured-projects">Featured projects</a> ·
+    <a href="https://github.com/vinceyuchen/Perceptinet#demo-showcase">CARLA demos</a> ·
+    <a href="https://vinceyuchen.github.io/animal-shelter-dv2/">Live visualization</a> ·
+    <a href="https://github.com/vinceyuchen?tab=repositories">Repositories</a>
+  </p>
 </div>
 
 ---
 
-### A little about me
+### About
 
-I'm Vince. I build **end-to-end software systems** at the intersection of computer vision, simulation, and interactive applications.
+I'm Vince, a software developer interested in **computer vision, intelligent systems, and practical software engineering**.
 
-I like working through the full engineering loop: **design the system → build the pipeline → test its behavior → make the results understandable.** I'm especially interested in software that stays reliable when inputs are incomplete, delayed, or noisy.
+I like owning the full engineering loop: **architect → implement → test → measure → improve**. My projects explore how to make complex systems observable, understandable, and resilient to imperfect inputs.
 
-## Selected work
+## Featured projects
 
-<table>
-<tr>
-<td width="52%" valign="top">
+### 01 · [Perceptinet — Cooperative Perception & Risk-Aware Braking](https://github.com/vinceyuchen/Perceptinet)
 
-<sub>01 / AUTONOMOUS SYSTEMS · COMPUTER VISION</sub>
+**Autonomous driving research prototype · Python / CARLA / YOLO26n / OpenCV**
 
-### [Perceptinet](https://github.com/vinceyuchen/Perceptinet)
+An end-to-end CARLA simulation that combines **onboard and roadside object detection**, **simulated V2I communication**, **spatial and temporal sensor fusion**, **time-to-collision (TTC) risk assessment**, and **automated braking**.
 
-**Cooperative perception & risk-aware braking in CARLA**
+**Engineering highlights**
 
-An end-to-end simulation research prototype connecting **YOLO26n** dual-camera perception, simulated **V2I** communication, sensor fusion, **time-to-collision** assessment, and a deterministic braking controller.
-
-- **Built:** perception-to-control pipeline and real-time Driver/Pro dashboards
-- **Evaluated:** normal V2I against injected delay, packet loss, and blackouts
-
-<code>Python</code> <code>CARLA</code> <code>YOLO26n</code> <code>OpenCV</code>
-
-[**Repository**](https://github.com/vinceyuchen/Perceptinet) · [**Watch both demos**](https://github.com/vinceyuchen/Perceptinet#demo-showcase) · [**Architecture**](https://github.com/vinceyuchen/Perceptinet/blob/main/docs/ENGINEERING_NOTES.md)
-
-</td>
-<td width="48%" valign="middle" align="center">
+- Built a perception-to-control pipeline with live **Driver** and **Pro** dashboards.
+- Modeled delayed, dropped, and outdated roadside observations using a simulation-time delivery queue and fault injection.
+- Instrumented risk, detection, and braking events for reproducible **clear-weather vs. degraded-V2I** comparisons.
 
 <a href="https://github.com/vinceyuchen/Perceptinet#demo-showcase">
-  <img src="https://raw.githubusercontent.com/vinceyuchen/Perceptinet/main/assets/scenario-1.gif" width="100%" alt="Live CARLA demonstration with onboard and roadside perception and braking dashboard." />
+  <img src="https://raw.githubusercontent.com/vinceyuchen/Perceptinet/main/assets/scenario-1.gif" width="680" alt="Perceptinet CARLA demo showing the onboard and roadside camera feeds and the live braking dashboard." />
 </a>
-<br />
-<sub>Live CARLA demo · tap to compare both scenarios</sub>
 
-</td>
-</tr>
-</table>
+<sub>Real CARLA demo recording · Click to compare both scenarios. The ego braking model is kinematic; this is a simulation research prototype, not a physical safety validation.</sub>
 
-<table>
-<tr>
-<td valign="top">
+**[Watch demos](https://github.com/vinceyuchen/Perceptinet#demo-showcase)** · **[Read the architecture](https://github.com/vinceyuchen/Perceptinet/blob/main/docs/ENGINEERING_NOTES.md)** · **[Browse source](https://github.com/vinceyuchen/Perceptinet)**
 
-<sub>02 / INTERACTIVE SOFTWARE · DATA STORYTELLING</sub>
+### 02 · [Behind the Shelter Doors — Interactive Data Story](https://github.com/vinceyuchen/animal-shelter-dv2)
 
-### [Behind the Shelter Doors](https://github.com/vinceyuchen/animal-shelter-dv2)
+**Data visualization · JavaScript / Vega-Lite / HTML / CSS**
 
-**An interactive data story about animal shelter outcomes**
+A responsive, narrative-driven website presenting animal shelter data through **14 Vega / Vega-Lite charts**, including maps, timelines, and outcome comparisons.
 
-A responsive, single-page visualization exploring regional trends and animal outcomes using **Vega / Vega-Lite** charts, custom layouts, and documented data sources.
+**Engineering highlights**
 
-<code>JavaScript</code> <code>Vega-Lite</code> <code>HTML</code> <code>CSS</code>
+- Built an interactive single-page experience with custom layouts, chart navigation, and responsive presentation.
+- Organized heterogeneous published datasets into an interpretable visual story with documented data sources and design decisions.
 
-[**Explore live project**](https://vinceyuchen.github.io/animal-shelter-dv2/) · [**Repository**](https://github.com/vinceyuchen/animal-shelter-dv2)
+**[Explore the live site](https://vinceyuchen.github.io/animal-shelter-dv2/)** · **[Browse source](https://github.com/vinceyuchen/animal-shelter-dv2)**
 
-</td>
-</tr>
-</table>
+## Technical focus
 
-## Engineering toolkit
-
-| Area | Tools & technologies |
+| Area | Technologies |
 | :--- | :--- |
 | **Programming** | Python · JavaScript · TypeScript |
-| **Vision & simulation** | CARLA · Ultralytics YOLO26n · OpenCV · NumPy |
-| **Interfaces & visualization** | HTML · CSS · Vega / Vega-Lite |
-| **Development & verification** | Git · GitHub Actions · automated tests · experimental telemetry |
+| **Vision & simulation** | CARLA · YOLO26n / Ultralytics · OpenCV · NumPy |
+| **Web & visualization** | HTML · CSS · Vega / Vega-Lite |
+| **Engineering workflow** | Git · GitHub Actions · automated testing · experiment logging |
 
-## What I'm exploring
+## How I approach engineering
 
-**Reliable intelligent systems** — how perception, communication delays, decision-making, and clear interfaces come together in practical software.
+**Make the system work. Understand why it works. Test what happens when it doesn't.**
+
+I prioritize clear component boundaries, meaningful measurements, and documentation that makes design decisions and limitations visible.
 
 ---
 
 <div align="center">
-<sub>Thoughtful engineering over flashy metrics. Explore the projects and their source code.</sub>
-<br />
-<br />
-<a href="https://github.com/vinceyuchen/Perceptinet">Perceptinet</a> &nbsp;·&nbsp;
-<a href="https://vinceyuchen.github.io/animal-shelter-dv2/">Interactive visualization</a> &nbsp;·&nbsp;
-<a href="https://github.com/vinceyuchen?tab=repositories">More work</a>
+  <sub>Interested in computer vision, reliable systems, and thoughtful software design.</sub>
+  <p>
+    <a href="https://github.com/vinceyuchen/Perceptinet">Perceptinet</a> ·
+    <a href="https://vinceyuchen.github.io/animal-shelter-dv2/">Live project</a> ·
+    <a href="https://github.com/vinceyuchen?tab=repositories">All repositories</a>
+  </p>
 </div>
