@@ -72,12 +72,13 @@ For questions about my public projects or potential technical collaboration, **[
 
 <sub>This creates a public GitHub Issue, not a private message. Please do not post confidential information. Personal contact and résumé links are intentionally omitted for now.</sub>
 
-<div align="center">
-
 ---
 
-<sub>Explore the implementation, the demos, and the design decisions behind the work.</sub>
-
-[Perceptinet](https://github.com/vinceyuchen/Perceptinet) · [Live visualization](https://vinceyuchen.github.io/animal-shelter-dv2/) · [All repositories](https://github.com/vinceyuchen?tab=repositories)
-
+<div align="center">
+  <p><sub>Explore the implementation, the demos, and the design decisions behind the work.</sub></p>
+  <p>
+    <a href="https://github.com/vinceyuchen/Perceptinet">Perceptinet</a> ·
+    <a href="https://vinceyuchen.github.io/animal-shelter-dv2/">Live visualization</a> ·
+    <a href="https://github.com/vinceyuchen?tab=repositories">All repositories</a>
+  </p>
 </div>
