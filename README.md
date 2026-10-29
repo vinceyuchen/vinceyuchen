@@ -72,7 +72,7 @@ Created a responsive, single-page data story with **14 Vega / Vega-Lite charts**
 
 For questions about my public projects or potential technical collaboration, **[open a project inquiry](https://github.com/vinceyuchen/vinceyuchen/issues/new?template=project-inquiry.yml)**.
 
-<sub>This creates a public GitHub Issue, not a private message. Please do not post confidential information. Personal contact and résumé links are intentionally omitted for now.</sub>
+<sub>This creates a public GitHub Issue, not a private message. Please do not post confidential or sensitive information.</sub>
 
 ---
 
