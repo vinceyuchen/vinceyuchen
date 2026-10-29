@@ -1,16 +1,12 @@
-<div align="center">
-
 <a href="https://github.com/vinceyuchen">
-  <img src="assets/profile-hero.svg" width="100%" alt="Vince — software engineering and applied AI portfolio." />
+  <img src="assets/profile-hero.svg" width="100%" alt="Vince — Software Engineering and Applied AI." />
 </a>
 
-**Software engineering · Computer vision · Data-driven products**
+I build and test systems across **computer vision, autonomous-driving simulation, and interactive web products**.
 
-I build tested software, from autonomous-driving simulations to interactive web experiences.
+[Explore selected work](#selected-work) · [Contact](#contact)
 
-[Selected work](#selected-work) · [CARLA demo](https://github.com/vinceyuchen/Perceptinet#demo-showcase) · [Live website](https://vinceyuchen.github.io/animal-shelter-dv2/) · [Contact](#contact)
-
-</div>
+---
 
 ## Selected work
 
