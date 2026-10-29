@@ -1,0 +1,35 @@
+name: Project inquiry or collaboration
+description: Ask about a public project, implementation details, or a technical collaboration.
+title: "[Inquiry] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. GitHub Issues are **public**. Please don't include private contact details, credentials, confidential material, or sensitive information.
+        This form is for project discussion rather than private recruiting messages.
+  - type: dropdown
+    id: project
+    attributes:
+      label: Related project
+      options:
+        - Perceptinet (CARLA / computer vision)
+        - Behind the Shelter Doors (data visualization)
+        - General technical discussion
+    validations:
+      required: true
+  - type: textarea
+    id: inquiry
+    attributes:
+      label: How can I help?
+      description: Briefly describe your question, suggestion, or collaboration idea.
+      placeholder: "I'd like to discuss..."
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context (optional)
+      description: Link to the relevant repository, code, documentation, or example.
+    validations:
+      required: false
