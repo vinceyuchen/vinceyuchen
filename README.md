@@ -1,65 +1,61 @@
 <a href="https://github.com/vinceyuchen">
-  <img src="assets/profile-hero.svg" width="100%" alt="Vince — Data Engineering and Applied AI." />
+  <img src="assets/profile-hero.svg" width="100%" alt="Vince. Software Engineering and Applied AI. Building reliable intelligent systems and software products." />
 </a>
-
-I build and test systems across **computer vision, autonomous-driving simulation, and interactive web products**.
-
-[Explore selected work](#selected-work) · [Contact](#contact)
-
----
 
 ## Selected work
 
-### 01 — [Perceptinet](https://github.com/vinceyuchen/Perceptinet)
+> ### 01 · [Perceptinet](https://github.com/vinceyuchen/Perceptinet)
+>
+> **Cooperative perception & risk-aware braking in CARLA.**
+>
+> [Real CARLA demo](https://github.com/vinceyuchen/Perceptinet#demo-showcase) · [Architecture](https://github.com/vinceyuchen/Perceptinet/blob/main/docs/ENGINEERING_NOTES.md) · [Automated checks](https://github.com/vinceyuchen/Perceptinet/actions/workflows/core-checks.yml)
 
-**Cooperative perception & risk-aware braking | Python · CARLA · YOLO26n**
-
-A CARLA research prototype exploring how onboard and roadside perception, simulated V2I communication, sensor fusion, and TTC-based braking work together when visibility or communication is limited.
+<details>
+<summary>View real project preview and engineering highlights</summary>
 
 <a href="https://github.com/vinceyuchen/Perceptinet#demo-showcase">
-  <img src="https://raw.githubusercontent.com/vinceyuchen/Perceptinet/main/assets/scenario-1.gif" width="680" alt="Recorded CARLA demonstration with onboard and roadside camera views and live risk/braking dashboard." />
+  <img src="https://raw.githubusercontent.com/vinceyuchen/Perceptinet/main/assets/screenshots/scenario-1-50.jpg" width="680" alt="Actual CARLA simulation screenshot showing the onboard and roadside views and the Perceptinet control dashboard." />
 </a>
 
-*Actual CARLA demo recording · Scenario comparisons use simulated communication faults and kinematic braking, not validated physical collisions.*
+**What I built:** Dual-camera YOLO26n perception, simulation-assisted localization, timestamped V2I delivery with fault injection, spatial/temporal fusion, TTC risk assessment, deterministic braking, and live dashboards.
 
-**What I built:** dual-camera perception pipeline, simulation-time packet delivery and faults, spatial/temporal fusion, TTC risk logic, real-time dashboards, and event-level metrics.
+**Evaluation:** Clear-weather and degraded-V2I scenarios with per-cycle telemetry. The ego uses kinematic motion; these experiments do not validate physical collision avoidance.
 
-[**Watch demo**](https://github.com/vinceyuchen/Perceptinet#demo-showcase) · [**Engineering notes**](https://github.com/vinceyuchen/Perceptinet/blob/main/docs/ENGINEERING_NOTES.md) · [**Tests & source**](https://github.com/vinceyuchen/Perceptinet)
+[Watch both recordings](https://github.com/vinceyuchen/Perceptinet#demo-showcase) · [Source code](https://github.com/vinceyuchen/Perceptinet)
 
-[![Perceptinet core Python checks](https://github.com/vinceyuchen/Perceptinet/actions/workflows/core-checks.yml/badge.svg?branch=main)](https://github.com/vinceyuchen/Perceptinet/actions/workflows/core-checks.yml)
+</details>
 
 ---
 
-### 02 — [Behind the Shelter Doors](https://github.com/vinceyuchen/animal-shelter-dv2)
+> ### 02 · [Behind the Shelter Doors](https://github.com/vinceyuchen/animal-shelter-dv2)
+>
+> **Interactive data storytelling for animal shelter outcomes.**
+>
+> [Live website](https://vinceyuchen.github.io/animal-shelter-dv2/) · [Design methodology](https://github.com/vinceyuchen/animal-shelter-dv2/blob/main/design/visual-design-system.md) · [Source code](https://github.com/vinceyuchen/animal-shelter-dv2)
 
-**Interactive data storytelling | JavaScript · Vega-Lite · HTML/CSS**
-
-A published web experience translating Australian animal shelter datasets into 14 interactive visualizations, with clear explanations of sources, comparisons, and reporting boundaries.
+<details>
+<summary>View real website screenshot and engineering highlights</summary>
 
 <a href="https://vinceyuchen.github.io/animal-shelter-dv2/">
-  <img src="https://raw.githubusercontent.com/vinceyuchen/animal-shelter-dv2/main/assets/real-site-preview.png" width="680" alt="Genuine published website screenshot showing Behind the Shelter Doors typography, navigation, and interactive Australian shelter data visualization." />
+  <img src="https://raw.githubusercontent.com/vinceyuchen/animal-shelter-dv2/main/assets/real-site-preview.png" width="680" alt="Real Chromium screenshot of the published Behind the Shelter Doors data visualization, showing the website and its Australian map." />
 </a>
 
-*Real browser screenshot of the published site · Open the live website to explore the interactive charts.*
+**What I built:** A responsive single-page data story with 14 Vega/Vega-Lite visualizations, interactive comparisons, documented source boundaries, and automated visual and data-integrity checks.
 
-**What I built:** responsive layout, visual storytelling, chart interaction, data normalization, documented design decisions, and automated visualization audits.
+[Explore the interactive site](https://vinceyuchen.github.io/animal-shelter-dv2/) · [Project repository](https://github.com/vinceyuchen/animal-shelter-dv2)
 
-[**Explore live site**](https://vinceyuchen.github.io/animal-shelter-dv2/) · [**Design & methodology**](https://github.com/vinceyuchen/animal-shelter-dv2/blob/main/design/visual-design-system.md) · [**Source code**](https://github.com/vinceyuchen/animal-shelter-dv2)
+</details>
 
-## Technical focus
+---
+
+### Technical focus
 
 **Languages:** Python · JavaScript · TypeScript
 
-**Computer vision & systems:** CARLA · YOLO26n · OpenCV · NumPy · sensor fusion · V2I modeling
+**Systems & vision:** CARLA · YOLO26n · OpenCV · sensor fusion · V2I modeling
 
-**Web & engineering:** HTML/CSS · Vega / Vega-Lite · Git · GitHub Actions · automated testing
+**Web & engineering:** HTML/CSS · Vega-Lite · Git · GitHub Actions · automated testing
 
-## Contact
+### Contact
 
-For public project questions or technical collaboration, [open a project inquiry](https://github.com/vinceyuchen/vinceyuchen/issues/new?template=project-inquiry.yml). This creates a **public GitHub Issue**; please don't include confidential or sensitive information.
-
----
-
-<div align="center">
-  <sub>Built, documented, and tested — see the demos, design decisions, and code.</sub>
-</div>
+[Open a project inquiry](https://github.com/vinceyuchen/vinceyuchen/issues/new?template=project-inquiry.yml) for project questions and technical collaboration. GitHub Issues are public; please don't include private information.
