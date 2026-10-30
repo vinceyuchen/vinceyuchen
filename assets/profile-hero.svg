@@ -1,8 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="236" viewBox="0 0 1200 236" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
 <title id="title">Vince — Software Engineering and Applied AI</title>
-<desc id="desc">An understated dark typographic banner with the name Vince and software engineering focus.</desc>
-<rect width="1200" height="236" rx="12" fill="#111820"/>
-<path d="M64 55H117" stroke="#88B8C0" stroke-width="3" stroke-linecap="round"/>
-<text x="64" y="94" fill="#B6C7D0" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="21" letter-spacing="2">SOFTWARE ENGINEERING  /  APPLIED AI</text>
-<text x="58" y="190" fill="#F6F8FA" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="105" letter-spacing="-4">VINCE</text>
+<desc id="desc">A minimal editorial header: Vince, software engineering and applied AI, building reliable intelligent systems and software products.</desc>
+<rect width="1200" height="250" rx="18" fill="#111820"/>
+<path d="M54 37h43" stroke="#87AEB9" stroke-width="2.5" stroke-linecap="round"/>
+<text x="54" y="78" fill="#B6C8D2" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" letter-spacing="1.45">SOFTWARE ENGINEERING / APPLIED AI</text>
+<text x="50" y="161" fill="#F7F9FA" font-family="Arial, Helvetica, sans-serif" font-size="77" font-weight="700" letter-spacing="-2">Vince</text>
+<text x="54" y="215" fill="#CDD7DF" font-family="Arial, Helvetica, sans-serif" font-size="25">Building reliable intelligent systems and software products.</text>
 </svg>
