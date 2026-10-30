@@ -8,14 +8,39 @@
 >
 > **Cooperative perception & risk-aware braking in CARLA.**
 >
-> [Real CARLA demo](https://github.com/vinceyuchen/Perceptinet#demo-showcase) · [Architecture](https://github.com/vinceyuchen/Perceptinet/blob/main/docs/ENGINEERING_NOTES.md) · [Automated checks](https://github.com/vinceyuchen/Perceptinet/actions/workflows/core-checks.yml)
+> [Demos](https://github.com/vinceyuchen/Perceptinet#demo-showcase) · [Architecture](https://github.com/vinceyuchen/Perceptinet/blob/main/docs/ENGINEERING_NOTES.md) · [Verified Python checks](https://github.com/vinceyuchen/Perceptinet/actions/workflows/core-checks.yml)
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/vinceyuchen/Perceptinet/blob/main/assets/scenario-1.mp4">
+        <img src="https://raw.githubusercontent.com/vinceyuchen/Perceptinet/main/assets/scenario-1.gif" width="100%" alt="Real CARLA recording: clear-weather cooperative perception, live dual-camera feeds and dashboard showing the ego stop." />
+      </a>
+      <br />
+      <strong>Scenario 01 · Cooperative baseline</strong>
+      <br />
+      <sub>Clear weather · Normal V2I · Controller stop</sub>
+      <br />
+      <a href="https://github.com/vinceyuchen/Perceptinet/blob/main/assets/scenario-1.mp4">Full recording (MP4)</a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/vinceyuchen/Perceptinet/blob/main/assets/scenario-2.mp4">
+        <img src="https://raw.githubusercontent.com/vinceyuchen/Perceptinet/main/assets/scenario-2.gif" width="100%" alt="Real CARLA recording: rainy simulation with injected V2I disruption and dashboard reporting simulated geometric contact." />
+      </a>
+      <br />
+      <strong>Scenario 02 · V2I stress test</strong>
+      <br />
+      <sub>Rain · Injected delay/loss · CONTACT (SIM)</sub>
+      <br />
+      <a href="https://github.com/vinceyuchen/Perceptinet/blob/main/assets/scenario-2.mp4">Full recording (MP4)</a>
+    </td>
+  </tr>
+</table>
+
+<sub>Recorded CARLA experiments, not concept renders. V2I faults are injected separately from weather. Scenario 02's CONTACT (SIM) indicates kinematic footprint overlap, not a physics-validated collision.</sub>
 
 <details>
-<summary>View real project preview and engineering highlights</summary>
-
-<a href="https://github.com/vinceyuchen/Perceptinet#demo-showcase">
-  <img src="https://raw.githubusercontent.com/vinceyuchen/Perceptinet/main/assets/screenshots/scenario-1-50.jpg" width="680" alt="Actual CARLA simulation screenshot showing the onboard and roadside views and the Perceptinet control dashboard." />
-</a>
+<summary>Read implementation details and experimental scope</summary>
 
 **What I built:** Dual-camera YOLO26n perception, simulation-assisted localization, timestamped V2I delivery with fault injection, spatial/temporal fusion, TTC risk assessment, deterministic braking, and live dashboards.
 
