@@ -1,5 +1,5 @@
 <a href="https://github.com/vinceyuchen">
-  <img src="assets/profile-hero.svg" width="100%" alt="Vince — Software Engineering and Applied AI." />
+  <img src="assets/profile-hero.svg" width="100%" alt="Vince — Data Engineering and Applied AI." />
 </a>
 
 I build and test systems across **computer vision, autonomous-driving simulation, and interactive web products**.
